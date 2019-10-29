@@ -4,7 +4,7 @@ This repository contains code to retrieve weather data during Formula 1 races.
 
 # Resulting table description: 
 
-Round:                    A number that indicates which round in the current Formula 1 World Championship season this race is.<br>
+<b>Round:</b>                    A number that indicates which round in the current Formula 1 World Championship season this race is.<br>
 Timestamp_W:              An epoch unix formatted timestamp. Google for unix timestamp for documentation on this type of timestamp.<br>
 Temperature:              Temperature in degrees Celcius.<br>
 Wind_speed:               Wind speed in meters/second.<br>
