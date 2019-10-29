@@ -43,7 +43,7 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 # Prepare weather API
-api_key = getpass.getpass('Insert your app id: ')
+api_key = input('Insert your app id: ')
 testappid = 'http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=' + api_key
 serviceurl = "http://api.openweathermap.org/data/2.5/weather?"
 
@@ -125,7 +125,7 @@ url_show = serviceurl + unit + lat + lng + appid_show
 print(' ')
 print(' ')
 print('----------------', gptitle.upper(), '----------------')
-print('Dutch time for the start of the race:')
+print('Starting time of the race in you local time zone:')
 print('--->', formattedracestart)
 time.sleep(1)
 print(' ')
