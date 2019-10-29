@@ -1,7 +1,7 @@
 # F1-weather-data
 This repository contains code to retrieve weather data during Formula 1 races.
 
-
+<br><br><br>
 # Resulting table description: 
 
 <b>Round:</b>                    A number that indicates which round in the current Formula 1 World Championship season this race is.<br>
